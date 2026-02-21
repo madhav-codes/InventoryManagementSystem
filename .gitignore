@@ -1,0 +1,54 @@
+# ==============================
+# IntelliJ IDEA / JetBrains
+# ==============================
+.idea/
+*.iml
+*.iws
+out/
+*.class
+
+# ==============================
+# Maven / Gradle build
+# ==============================
+target/
+build/
+*.log
+*.jar
+*.war
+*.ear
+
+# ==============================
+# OS-specific files
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Spring Boot / Application
+# ==============================
+/logs/
+/tmp/
+/*.pid
+/*.seed
+
+# ==============================
+# Environment / Secrets
+# ==============================
+*.env
+*.properties.local
+application-local.properties
+credentials.json
+*.keystore
+*.jks
+
+# ==============================
+# Lombok / generated sources
+# ==============================
+/generated/
+
+# ==============================
+# Others
+# ==============================
+.settings/
+.classpath
+.project
