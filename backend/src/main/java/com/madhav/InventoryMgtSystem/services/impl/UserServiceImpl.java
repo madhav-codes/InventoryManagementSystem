@@ -43,6 +43,7 @@ public class UserServiceImpl implements UserService {
             role = registerRequest.getRole();
         }
 
+        //TODO : user directly executing register api can regoster as ADMIN
         User userToSave = User.builder()
                 .name(registerRequest.getName())
                 .email(registerRequest.getEmail())

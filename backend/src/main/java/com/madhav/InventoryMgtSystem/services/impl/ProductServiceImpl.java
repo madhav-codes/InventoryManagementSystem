@@ -33,8 +33,8 @@ public class ProductServiceImpl implements ProductService {
 
     private static final String IMAGE_DIRECTORY = System.getProperty("user.dir") + "/product-images/";
 
-    //AFTER YOUR FRONTEND IS SETUP CHANGE THE IMAGE DIRECTORY TO YHE FRONTEND YOU ARE USING
-    private static final String IMAGE_DIRECTORY_2 = "/Users/dennismac/phegonDev/ims-react/public/products/";
+    //AFTER YOUR FRONTEND IS SETUP CHANGE THE IMAGE DIRECTORY TO THE FRONTEND YOU ARE USING
+    private static final String IMAGE_DIRECTORY_2 = "/Users/Madhav1/Documents/IMSProject/productImages/";
 
     @Override
     public Response saveProduct(ProductDTO productDTO, MultipartFile imageFile) {

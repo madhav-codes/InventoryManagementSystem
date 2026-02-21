@@ -1,54 +1,40 @@
-# ==============================
-# IntelliJ IDEA / JetBrains
-# ==============================
+############################
+# IntelliJ IDEA
+############################
 .idea/
 *.iml
-*.iws
 out/
-*.class
 
-# ==============================
-# Maven / Gradle build
-# ==============================
-target/
-build/
-*.log
-*.jar
-*.war
-*.ear
-
-# ==============================
-# OS-specific files
-# ==============================
+############################
+# OS files
+############################
 .DS_Store
 Thumbs.db
 
-# ==============================
-# Spring Boot / Application
-# ==============================
-/logs/
-/tmp/
-/*.pid
-/*.seed
+############################
+# Logs
+############################
+*.log
 
-# ==============================
-# Environment / Secrets
-# ==============================
-*.env
-*.properties.local
-application-local.properties
-credentials.json
-*.keystore
-*.jks
+############################
+# Backend (Spring Boot)
+############################
+backend/target/
+backend/*.jar
+backend/*.war
+backend/*.class
 
-# ==============================
-# Lombok / generated sources
-# ==============================
-/generated/
+############################
+# Frontend (React)
+############################
+frontend/node_modules/
+frontend/build/
+frontend/dist/
 
-# ==============================
-# Others
-# ==============================
-.settings/
-.classpath
-.project
+############################
+# Environment variables
+############################
+.env
+frontend/.env
+backend/.env
+
